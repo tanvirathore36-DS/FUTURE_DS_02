@@ -1,0 +1,24 @@
+# Ignore temporary and system files
+.DS_Store
+Thumbs.db
+
+# Python cache / notebooks checkpoints
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Power BI / Excel working files (don’t upload unless final deliverable)
+*.pbix
+*.pbit
+*.xlsx
+*.xls
+
+# Environment / secrets
+.env
+
+# Note: Keep CSVs in /data/
+# (so don’t ignore *.csv here, since dataset must stay in repo)
