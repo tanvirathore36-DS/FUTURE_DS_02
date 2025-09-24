@@ -13,7 +13,7 @@ Analyze Facebook Ads campaign data to build a performance dashboard that highlig
 - Provide insights and optimization recommendations
 
 ## Dataset
-- File: /data/cleaned_facebook_ads.csv
+- File: data/data.csv
 - Use `reporting_start` as the date for time-series visuals.
 - Use `approved_conversion` as the primary conversions field (validated).
 
@@ -23,7 +23,7 @@ Analyze Facebook Ads campaign data to build a performance dashboard that highlig
 
 ## Repo Structure
 - /assignments/ — Power BI .pbix and notes
-- /data/ — cleaned dataset (CSV)
+- /data/ — Raw dataset (CSV)
 - /notebooks/ — preprocessing notebooks
 - /screenshots/ — dashboard screenshots
 - /final_report/ — final summary / PDF
