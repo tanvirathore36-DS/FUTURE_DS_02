@@ -1,6 +1,4 @@
----
 
-````markdown
 # 📒 DAX Measures Notebook — Facebook Ads Insights Dashboard
 
 This notebook documents all the **DAX calculations** created inside the Power BI file for  
@@ -44,6 +42,22 @@ DIVIDE( [Total Spend], [Total Impressions], 0 ) * 1000
 
 ---
 
+## **💰 Cost & ROI Measures (Optional)**
+
+```DAX
+Cost per Conversion =
+DIVIDE( [Total Spend], [Total Conversions], BLANK() )
+
+-- (If revenue column exists)
+Total Revenue =
+COALESCE( SUM(data[revenue]), 0 )
+
+ROAS =
+DIVIDE( [Total Revenue], [Total Spend], 0 )
+```
+
+---
+
 ## **📅 Date Table**
 
 ```DAX
@@ -74,6 +88,5 @@ ADDCOLUMNS(
 
 ```
 
-
-
+---
 
