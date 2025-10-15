@@ -30,5 +30,4 @@ Analyze Facebook Ads campaign data to build a performance dashboard that highlig
 
 ## Deliverables
 - Interactive Power BI file (.pbix)
-- 4–5 dashboard screenshots
 - Short insights report and recommended actions
